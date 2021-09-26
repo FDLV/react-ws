@@ -34,9 +34,9 @@ function App() {
 
   const palette = {
     position: "fixed",
-    bottom: "15px",
+    bottom: "70px",
     visibility: vis,
-    left: "calc((100vw - "+pixels.toString()+"px)/2 + 75px)"
+    left: "calc((100vw - "+pixels.toString()+"px)/2 - 75px)"
   }
 
   const RoundDiv = {
