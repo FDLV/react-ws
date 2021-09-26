@@ -1,4 +1,22 @@
 .App {
   text-align: center;
-  background: rgb(242, 255, 197);
+  font-family: 'Comfortaa', cursive;}
+
+.Header {
+  padding: 32.5px;
+  color: white;
+  height: 40px;
+  font-size: 32px;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #00a2ff, 0 0 70px #00a2ff, 0 0 80px #00a2ff, 0 0 100px #00a2ff, 0 0 150px #00a2ff;
+}
+
+.Main {
+  min-width: 550px;
+  width: 100%;
+  min-height: 360px;
+  height: calc(100vh - 105px - 64px);
+  background: #00a2ff;
+  border: none;
+  margin: 0;
+  padding: 0;
 }
